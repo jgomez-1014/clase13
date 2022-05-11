@@ -27,10 +27,67 @@
                 <a href="../index.html">Ir a la Home</a>
             </h2>
             <hr>
-            <button class="btn btn-primary">
+
+            <br>
+            <br>
+        </div>
+
+        <div class="text-center">
+            <div class="m-5 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Numero</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="numeroUno">
+                </div>
+            </div>
+
+            <div class="m-5 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Otro Numero</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" id="numeroDos">
+                </div>
+            </div>
+
+            <div>
+
+            
+            <button class="btn btn-primary" onclick="calcular()">
                 Iniciar Calculo
             </button>
         </div>
+        <br>
+
+
+            <div class="d-f">
+                <button class="btn btn-success w-25 m-3" onclick="sumar()">
+                    Sumar
+                </button>
+
+                <button class="btn btn-warning w-25 m-3" onclick="restar()">
+                    Restar
+                </button>
+
+                <button class="btn btn-danger w-25 m-3" onclick="multi()">
+                    Multiplicar
+                </button>
+
+                <button class="btn btn-dark w-25 m-3" onclick="dividir()">
+                    Dividir
+                </button>
+            </div>
+
+
+            <div id="resultado">
+            </div>
+            <div id="resultado2">
+            </div>
+            <div id="resultado3">
+            </div>
+            <div id="resultado4">
+            </div>
+
+        </div>
+
+        
     </main>
     <script src="../js/calculadora.js"></script>
 </body>
