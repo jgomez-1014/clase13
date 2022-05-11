@@ -28,6 +28,7 @@ function Resta(a, b) {
     var numeroUno, numeroDos, suma, resta, multi, dividir;
 
     let resultado = document.getElementById('resultado');
+    let resultado1 = document.getElementById('resultado1');
     let resultado2 = document.getElementById('resultado2');
     let resultado3 = document.getElementById('resultado3');
     let resultado4 = document.getElementById('resultado4');
@@ -110,5 +111,5 @@ function Resta(a, b) {
 
         resta = numeroUno + numeroDos;
         console.log("La Suma de los dos valores es: ", resta);
-        resultado2.innerHTML = "la suma de los dos valores es: " + resta;
+        resultado1.innerHTML = "la suma de los dos valores es: " + resta;
     }
